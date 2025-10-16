@@ -1,0 +1,29 @@
+html{
+    background-color: rgba(4, 61, 5, 0.964);
+
+}
+*{
+    border:solid 1px white
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+
+}
+
+.nombre h1{
+    color: white;
+    font-family: "Agdasima", sans-serif;
+}
+
+.nav a{
+    color: yellow;
+}
+
+.nav ul{
+    list-style: none;
+}
