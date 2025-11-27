@@ -71,6 +71,7 @@ main {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 .proyectos li {
   margin-bottom: 1rem;
