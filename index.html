@@ -3,25 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Alex Mullo</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:900,700,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap" rel="stylesheet">
+    <title>Alex Mullo | Código Creativo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <main>
-        <div class="titulo">
-            <h1>ALEX MULLO</h1>
-            <div class="portafolio-label">PORTAFOLIO <span class="portafolio-year">2025</span></div>
-            <p class="subtitulo">CONOCE LOS TRABAJOS QUE HE REALIZADO EN LA MATERIA DE <b>CÓDIGO CREATIVO</b></p>
+    <div class="noise-overlay"></div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <span class="brand">ALUX <span class="thin">ESTUDIO</span></span>
         </div>
-        <nav class="proyectos">
-            <ul>
-                <li><a class="btn-portafolio" href="https://alexmullo.github.io/p5_pelota_que_rebota/">Sistema de Pelotas</a></li>
-                <li><a class="btn-portafolio" href="https://alexmullo.github.io/sistema_de_particulas/">Examen de interciclo</a></li>
-            </ul>
-        </nav>
+        <div class="nav-right">
+            <span class="location">CUENCA, EC</span>
+            <span class="year">©2026</span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="overline reveal-text">PORTAFOLIO ACADÉMICO</p>
+                
+                <div class="title-wrapper reveal-text">
+                    <h1 class="hero-name">ALEX MULLO</h1>
+                    <h2 class="hero-course">
+                        <span class="bracket">[</span> INTRODUCCIÓN AL CÓDIGO CREATIVO <span class="bracket">]</span>
+                    </h2>
+                </div>
+                
+                <div class="hero-footer reveal-text delay-1">
+                    <p class="description">
+                        Proyectos realizados en la materia de Código Creativo<br>
+                        Universidad de Cuenca.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="section-header reveal-text">
+                <h2>PROYECTOS REALIZADOS</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="grid-container">
+                <a href="https://alexmullo.github.io/p5pelotaquerebota" class="card reveal-card" target="_blank">
+                    <div class="card-image">
+                        <div class="tech-bg"></div>
+                        <div class="overlay"></div>
+                        <span class="card-number">01</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>FÍSICA DE PELOTAS</h3>
+                        <p>Simulación de gravedad</p>
+                        <div class="tags"><span>Código Creativo</span></div>
+                    </div>
+                </a>
+
+                <a href="https://alexmullo.github.io/sistemadeparticulas" class="card reveal-card delay-1" target="_blank">
+                    <div class="card-image">
+                        <div class="tech-bg"></div>
+                        <div class="overlay"></div>
+                        <span class="card-number">02</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>PARTÍCULAS NAVIDEÑAS</h3>
+                        <p>Sistema generativo</p>
+                        <div class="tags"><span>Código Creativo</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="card reveal-card" target="_blank">
+                    <div class="card-image">
+                        <div class="tech-bg"></div>
+                        <div class="overlay"></div>
+                        <span class="card-number">03</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>TRACKING VISUAL</h3>
+                        <p>Manipulación webcam</p>
+                        <div class="tags"><span>Código Creativo</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="card reveal-card delay-1" target="_blank">
+                    <div class="card-image">
+                        <div class="tech-bg"></div>
+                        <div class="overlay"></div>
+                        <span class="card-number">04</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>UX CONTRAINTUITIVA</h3>
+                        <p>Experimento lógico</p>
+                        <div class="tags"><span>Código Creativo</span></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-bottom">
+                <p>Diseñado por Alex Mullo</p>
+                <p>2026</p>
+            </div>
+        </footer>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
